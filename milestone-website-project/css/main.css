@@ -1,0 +1,239 @@
+/* base styles */
+body {
+  background-image: url(../img/tree-shapes.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: contain;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+
+.section-head {
+  width: 200px;
+  font-family: 'Libre Franklin', sans serif;
+  font-size: 44px;
+  font-weight: 700;
+  padding-top: 20px;
+  color: #eb3838;
+  margin: 0 0 20px 40px;
+}
+
+.section-head-contact {
+  width: 200px;
+  font-family: 'Libre Franklin', sans serif;
+  font-size: 44px;
+  font-weight: 700;
+  padding-top: 20px;
+  color: #ffffff;
+  margin: 0 0 20px 40px;
+}
+
+ /* grid */
+ .full-width {
+   width: 1400px;
+   height: auto;
+   float: left;
+   margin: 0 auto;
+}
+
+ .half-width {
+   width: 700px;
+   height: auto;
+   float:left;
+}
+
+ .third-width {
+   width: 340px;
+   height: auto;
+   float: left;
+   margin: 0 60px;
+}
+ /* end base styles */
+
+
+ .lauer {
+   font-family: 'Libre Franklin', sans-serif;
+   font-weight: 700;
+   font-size: 34px;
+   color: #ffffff;
+   margin: 0 40px;
+   padding: 15px 0 0 40px;
+
+ }
+ .lauer span {
+   font-family: 'Libre Franklin', sans-serif;
+   font-weight: 700;
+   font-size: 34px;
+   color: #eb3838;
+
+ }
+
+ header {
+   background-color: #322f30;
+   opacity: 80%;
+   height: 600px;
+   margin: 0 auto;
+}
+
+ .full-width-topbar {
+    width: 1400px;
+    height: 60px;
+    float: left;
+    background-color: #4a4648;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    opacity: 100%;
+}
+
+nav {
+  float: right;
+  margin: 10px 60px 10px 0;
+
+}
+
+ nav ul li {
+  display: inline-block;
+ }
+
+ nav ul li a {
+   font-family: 'Libre Franklin', sans-serif;
+   font-size: 25px;
+   font-weight: 400;
+   padding-right: 20px;
+   text-decoration: none;
+   color: #ffffff;
+ }
+
+ .past {
+   font-family: 'Libre Franklin', sans-serif;
+   font-size: 62px;
+   font-weight: 700;
+   color: #9f9d9e;
+   padding-left: 70px;
+ }
+
+ .graphic {
+   font-family: 'Libre Franklin', sans-serif;
+   font-size: 128px;
+   font-weight: 700;
+   color: #eb3838;
+   padding-left: 140px;
+ }
+
+ .future {
+   font-family: 'Libre Franklin', sans-serif;
+   font-size: 62px;
+   font-weight: 700;
+   color: #9f9d9e;
+   padding-left: 60px;
+ }
+
+ .web {
+   font-family: 'Libre Franklin', sans-serif;
+   font-size: 128px;
+   font-weight: 700;
+   color: #eb3838;
+   padding-left: 130px;
+ }
+
+ #about {
+   width: 1400px;
+   background-color: #ffffff;
+   opacity: 60%;
+   height: 500px;
+   margin: 0 auto;
+ }
+
+
+.my-image {
+   width: 200px;
+   height: auto;
+   float: left;
+   margin: 45px 60px 0 0;
+}
+
+.my-story {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
+  text-align: left;
+  width: 1000px;
+  height: auto;
+  margin-top: 10px;
+  float: left;
+  clear: right;
+}
+
+#work {
+  background-color: #bcbec0;
+  background-blend-mode: luminosity;
+  opacity: 85%;
+  width: 1400px;
+  height: 1020px;
+}
+
+.work-descrip h3 {
+  font-family: 'Libre Franklin', sans-sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.work-descrip p {
+  font-family: 'Libre Franklin', sans-sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+#contact {
+  background-color: #eb3838;
+  opacity: 90%;
+  width: 1400px;
+  height: 250px;
+}
+
+.phone-email, .socialmedia {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+
+#contact .third-width {
+  width: 355px;
+  height: auto;
+  float: left;
+  margin: 0 50px;
+}
+
+/* #contact .full-width {
+  width: 1360px;
+  height: auto;
+  float: left;
+  margin: 0 60px;
+} */
+
+h4 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #eb3838;
+  text-align: center;
+  color: #ffffff;
+  opacity: 90%;
+  width: 1400px;
+  height: 40px;
+  float: left;
+  clear: both;
+}
